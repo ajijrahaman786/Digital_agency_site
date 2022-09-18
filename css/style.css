@@ -315,6 +315,9 @@ hr{
 
 /* // Medium devices (tablets, 320px and up) */
 @media (min-width: 320px){
+    a.nav-link {
+    padding: 5px 10px;
+    }
     .about-text h2 {
         font-size: 26px;
     }
