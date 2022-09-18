@@ -326,10 +326,10 @@ hr{
         transform: translateY(-2px);
     }
     .social-section p {
-        font-size: 24px;
+        font-size: 23px;
     }
     .social-section::after {
-        transform: translateY(-58px);
+        transform: translateY(-57px);
     }
     .social-icons img {
         width: 45px;
