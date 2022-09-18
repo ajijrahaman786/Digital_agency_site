@@ -311,7 +311,33 @@ hr{
 
 /* footer-section ends */
 
-/* responsive */
+/* responsive css here*/
+
+/* // Medium devices (tablets, 320px and up) */
+@media (min-width: 320px){
+    .about-text h2 {
+        font-size: 26px;
+    }
+    .section-title h1 {
+        font-size: 28px;
+    }
+    .section-title::after {
+        margin-bottom: 10px;
+        transform: translateY(-2px);
+    }
+    .social-section p {
+        font-size: 24px;
+    }
+    .social-section::after {
+        transform: translateY(-58px);
+    }
+    .social-icons img {
+        width: 45px;
+    }
+    .footer-item p {
+        font-size: 12px;
+    }
+}
 
 /* // Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) { 
